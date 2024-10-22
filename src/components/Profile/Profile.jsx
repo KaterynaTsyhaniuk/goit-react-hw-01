@@ -6,7 +6,7 @@ function Profile({ name, tag, location, image, stats }) {
       <div className={css.profileMainBox}>
         <img className={css.profileIcon} src={image} alt="User avatar" />
         <p className={css.profileName}>{name}</p>
-        <p className={css.profileDescription}>{tag}</p>
+        <p className={css.profileDescription}>@{tag}</p>
         <p className={css.profileDescription}>{location}</p>
       </div>
 
