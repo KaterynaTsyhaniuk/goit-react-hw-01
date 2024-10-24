@@ -4,6 +4,7 @@ import FriendList from "./FriendList/FriendList";
 import friendList from "../friendList.json";
 import transactions from "../transactions.json";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
+import "modern-normalize";
 import "./App.css";
 function App() {
   return (
